@@ -1,5 +1,5 @@
 from sqlalchemy import select, func, and_
-from base_repository import BaseRepository
+from src.library_catalog.data.repositories.base_repository import BaseRepository
 from ..models.book import Book
 from sqlalchemy.ext.asyncio import AsyncSession
 
